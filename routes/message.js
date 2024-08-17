@@ -7,4 +7,4 @@ const rourter = express.Router()
 rourter.post('/add', addMessage)
 rourter.get('/get', getMessage)
 
-module.exports = addMessage
+module.exports = rourter
