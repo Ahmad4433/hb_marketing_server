@@ -42,4 +42,4 @@ app.use((error, req, res, next) => {
     res.send(error.message)
 })
 
-app.listen(process.env.PORT, () => console.log('server is running '))
+app.listen(process.env.PORT, () => console.log('server is running '+process.env.PORT))
